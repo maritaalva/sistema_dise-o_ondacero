@@ -1,16 +1,10 @@
 <template>
-
-<div>
- 
-  <MainMenu/>
   <div class="layout">
-
-   </div> 
-   <Nuxt />
-</div>
-  
-  
+    <main-menu/>
+    <Nuxt />
+  </div>
 </template>
+
 <style lang="postcss">
 .layout{
     position: absolute;

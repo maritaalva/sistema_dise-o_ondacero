@@ -8,27 +8,26 @@
         </li>
         <li @click="openMenu1 = !openMenu1" class="visible" id="open" >La Marca
           <ul class="panel" v-show="openMenu1">
-            <li class="invisibl" > <NuxtLink to="/novedades">Novedades </NuxtLink></li>
-            <li class="invisibl" ><NuxtLink to="/figma">Figma </NuxtLink></li>
-            <li class="invisibl"><NuxtLink to="/pdf">Pdf</NuxtLink></li>
-          </ul>
-        </li>
-        <li  class="visible" id="cero">
-           <NuxtLink to="/apariencia">APARIENCIA </NuxtLink>
-        </li>
-        <li @click="openMenu2 = !openMenu2" class="visible">BÁSICOS
-          <ul class="panel" v-show="openMenu2">
-            <li class="invisibl" > <NuxtLink to="/logotipos">Logotipos</NuxtLink></li>
-            <li class="invisibl" > <NuxtLink to="/paletas">Paleta</NuxtLink></li>
+            <li class="invisibl" > <NuxtLink to="/componentes">componentes </NuxtLink></li>
             <li class="invisibl" > <NuxtLink to="/tipografia">Tipografía</NuxtLink></li>
+            <li class="invisibl" > <NuxtLink to="/colores">Colores</NuxtLink></li>
+            <li class="invisibl" > <NuxtLink to="/logotipos">Logotipos</NuxtLink></li>
+            <li class="invisibl" > <NuxtLink to="/colores">Layouts</NuxtLink></li>
             <li class="invisibl" > <NuxtLink to="/imagenes">Imágenes</NuxtLink></li>
-            <li class="invisibl" > <NuxtLink to="/aplicaciones">Aplicaciones</NuxtLink></li>
           </ul>
         </li>
-        <li @click="openMenu3 = !openMenu3" class="visible">RETÍCULAS
+
+        <li @click="openMenu2 = !openMenu2" class="visible">NAVEGACION
+          <ul class="panel" v-show="openMenu2">
+            <li class="invisibl" > <NuxtLink to="/mapas">mapas</NuxtLink></li>
+            <li class="invisibl" > <NuxtLink to="/lowmid">low-fi + mid-fi</NuxtLink></li>
+
+          </ul>
+        </li>
+        <li @click="openMenu3 = !openMenu3" class="visible">COMPONENTES WEB 
           <ul class="panel" v-show="openMenu3">
-            <li class="invisibl" > <NuxtLink to="/base">Base</NuxtLink></li>
-            <li class="invisibl" > <NuxtLink to="/aplicacion">Aplicación</NuxtLink></li>
+            <li class="invisibl" > <NuxtLink to="/base">Iconos</NuxtLink></li>
+            <li class="invisibl" > <NuxtLink to="/aplicacion">Botones</NuxtLink></li>
           </ul>
         </li>
         <li @click="openMenu4 = !openMenu4" class="visible">NAVEGACIÓN
